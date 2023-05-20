@@ -1,0 +1,88 @@
+.container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    padding-bottom: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+.title {
+    font-size: .9rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.subtitle {
+    font-size: .8rem;
+    margin-bottom: .5rem;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.input {
+    flex: 1;
+    padding: 0.3rem .8rem;
+    font-size: .8rem;
+    border: 1px solid #ccc;
+    border-radius: .8rem;
+}
+
+.subscribeButton {
+    background-color: #ff5a00;
+    color: #fff;
+    border: none;
+    border-radius: 1rem;
+    padding: 0.3rem 1rem;
+    font-size: .8rem;
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+.disclaimer {
+    font-size: 0.875rem;
+    color: #666;
+}
+
+.privacyLink {
+    color: #ff5a00;
+    text-decoration: none;
+}
+
+.privacyLink:hover {
+    text-decoration: underline;
+}
+
+/* Media queries for mobile optimization */
+@media (max-width: 768px) {
+    .container {
+        padding: 1rem;
+    }
+
+    .title {
+        font-size: 1.75rem;
+    }
+
+    .subtitle {
+        font-size: 1.125rem;
+    }
+
+    .form {
+        flex-direction: column;
+    }
+
+    .input {
+        margin-bottom: 1rem;
+        width: 90%;
+    }
+
+    .subscribeButton {
+        margin-left: 0;
+    }
+}

@@ -1,0 +1,204 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+@layer components {
+	.select_input {
+		@apply bg-gray-50 border placeholder-slate-400 shadow-sm border-slate-300 text-gray-900 outline-none text-sm rounded-lg focus:ring-[#FF5A00] focus:ring-1 focus:border-[#FF5A00] block w-full p-2.5;
+	}
+
+	.label {
+		@apply text-formLabel1 block mb-[5px];
+	}
+
+	.button {
+		@apply cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed border rounded-lg text-white bg-[#FF5A00] shadow-sm px-4 transition-all duration-150 font-bold py-[10px] hover:bg-[#e24f00];
+	}
+
+	.filter_btn {
+		@apply bg-gray-100 rounded-full py-3 text-gray-700 px-4 text-xs cursor-pointer;
+	}
+
+	.main-heading {
+		@apply font-[500] text-main;
+	}
+
+	.main-heading-subtitle {
+		@apply font-[500] text-mainSubtitle text-[#808080];
+	}
+
+	.sub-heading-18 {
+		@apply font-[500] text-subH18 py-4;
+	}
+
+	.sub-heading-16 {
+		@apply font-[500] text-subH16 py-4;
+	}
+
+	.form-btn-cancel {
+		@apply bg-white font-[500] text-btn1 text-[#808080] border border-[#808080] px-6 py-1 rounded-lg;
+	}
+
+	.form-btn-save {
+		@apply bg-[#FF5A00] font-[500] text-btn1 text-white border border-[#FF5A00] px-8 py-1 rounded-lg;
+	}
+
+
+}
+
+.Mui-active,
+.Mui-completed {
+	color: #ff5a00 !important;
+}
+
+.Mui-active>span,
+.Mui-completed>span {
+	border-color: #ff5a00 !important;
+}
+
+.PhoneInputInput {
+	outline: none;
+	margin-left: 10px;
+}
+
+.li-style>li {
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	transition-duration: 200ms;
+	animation-duration: 10;
+}
+
+.li-style>li>span {
+	color: #ff5a00;
+}
+
+.li-style>li:hover {
+	color: #fafafa;
+	text-decoration: underline;
+	padding-left: 12px;
+}
+
+/* social media button style  */
+
+.social-icon-style li a {
+	cursor: pointer;
+}
+
+.animation {
+	animation: shakeY 5s infinite;
+}
+
+@keyframes shakeY {
+
+	0%,
+	100% {
+		transform: translateY(-7%);
+		/* animation-timing-function: cubic-bezier(0.8, 0, 1, 1); */
+	}
+
+	50% {
+		transform: translateY(0);
+		/* animation-timing-function: cubic-bezier(0, 0, 0.2, 1); */
+	}
+}
+
+.animation_spin {
+	animation: spain 18s infinite;
+}
+
+@keyframes spain {
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+/* submenu create  */
+
+.dropdown:hover .dropdown-menu {
+	opacity: 1;
+	transform: translate(0) scale(1);
+	visibility: visible;
+}
+
+.menu_p>p,
+.nav_menu_link>p>a,
+.account_menu_link>p>a {
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	transition: all;
+	transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+	transition-duration: 300ms;
+}
+
+.menu_p>p:hover,
+.nav_menu_link>p>a:hover {
+	margin-left: 7px;
+	color: #ff5a00;
+}
+
+.account_menu_link>p>a:hover {
+	color: #ff5a00;
+}
+
+#vertical-tabpanel-0,
+#vertical-tabpanel-1 {
+	width: 100%;
+}
+
+.tutor-register-bg {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+		url("/public/images/tutor-register.png");
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.css-1s2u09g-control {
+	border: none !important;
+	background-color: transparent !important;
+}
+
+.css-1pahdxg-control {
+	border-color: transparent !important;
+	box-shadow: none !important;
+	background-color: transparent !important;
+}
+
+.css-1pahdxg-control:hover {
+	border: none !important;
+	border-color: transparent !important;
+	background-color: transparent !important;
+}
+
+.scrollbar_edit::-webkit-scrollbar {
+	width: 7px;
+}
+
+.scrollbar_edit::-webkit-scrollbar-thumb {
+	background-color: #383838;
+	border-radius: 30px;
+}
+
+.scrollbar_edit::-webkit-scrollbar-track {
+	background-color: #fafafa;
+}
+
+.MuiSlider-thumb {
+	color: aliceblue;
+}
+
+.MuiSlider-rail {
+	color: #3a3a3a;
+}
+
+.MuiSlider-track {
+	color: #383838;
+}
+

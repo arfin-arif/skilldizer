@@ -1,0 +1,88 @@
+.faq-card {
+    background-color: #FCF4F0;
+    padding: 1.5rem;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.faq-card-title {
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.faq-card-description {
+    font-weight: 500;
+    font-size: 16px;
+    color: #7E7A78;
+}
+
+.faq-card-authors {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.faq-card-images {
+    display: flex;
+    gap: 0.5rem;
+    padding-left: 2rem;
+}
+
+.faq-card-images img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    margin-left: -18%;
+}
+
+.faq-card-article-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    margin-left: -4rem;
+}
+
+.faq-card-article-count,
+.faq-card-article-authors {
+    font-weight: 500;
+    font-size: 14px;
+    color: #7E7A78;
+}
+
+/* Mobile optimization */
+@media (max-width: 720px) {
+    .faq-card-card {
+        padding: 1rem;
+    }
+
+    .faq-card-title {
+        font-size: 18px;
+    }
+
+    .faq-card-description {
+        font-size: 14px;
+    }
+
+    .faq-card-images{
+        padding-left: 4.5rem
+    }
+
+    .faq-card-authors {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .faq-card-article-info{
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .faq-card-article-count,
+    .faq-card-article-authors {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,18 @@
+[
+	{
+		"code": "low-high",
+		"name": " Price Low-High"
+	},
+	{
+		"code": "high-low",
+		"name": "Price High-Low"
+	},
+	{
+		"code": "reviews",
+		"name": "Number Of Reviews"
+	},
+	{
+		"code": "rating",
+		"name": "Top Rating"
+	}
+]

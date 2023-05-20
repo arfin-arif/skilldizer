@@ -1,0 +1,112 @@
+.student-faqs-container{
+    background-color: rgb(252, 244, 240);
+    display: flex;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    
+}
+
+.side-bar{
+    height: 100%;
+    width: 10rem;
+}
+.student-faqs {
+
+    max-width: 800px;
+    margin: 2rem auto;
+    border-radius: 1rem;
+    background-color: white;
+    padding: 2rem;
+
+}
+
+.author-images-container{
+    padding-left: .5rem;
+}
+.author-image{
+    margin-left: -9%;
+   
+}
+
+.student-faqs .title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.student-faqs .subtitle {
+    color: rgb(160, 160, 160);
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+
+.student-faqs .authors{
+    display: flex;
+}
+
+.student-faqs .articles-count,
+.student-faqs .author-names {
+    font-size: .8rem;
+    color: rgb(160, 160, 160);
+}
+
+.student-faqs .list {
+    margin-top: 20px;
+}
+
+.student-faqs .list .item {
+    padding: 1rem;
+    margin: 1rem 0;
+    background-color: rgb(252, 244, 240) ;
+    border-radius: .7rem;
+    cursor: pointer;
+}
+
+.student-faqs .list .item .item-title {
+    font-size: 1rem;
+ 
+}
+
+.student-faqs .list .item .item-description,
+.student-faqs .list .item .item-author,
+.student-faqs .list .item .item-last-updated {
+    font-size: .8rem;
+    color: rgb(120, 116, 118);
+} 
+
+
+.student-faqs .list .item .item-info{
+    display: flex;
+    align-items: center;
+    margin-top: .5rem;
+}
+
+.student-faqs .list .item .item-info .author-info{
+    margin-left: 1rem;
+}
+
+/* Media queries for mobile optimization */
+@media (max-width: 600px) {
+    .student-faqs .title {
+        font-size: 20px;
+    }
+
+    .student-faqs .subtitle {
+        font-size: 16px;
+    }
+
+    .student-faqs .articles-count,
+    .student-faqs .authors {
+        font-size: 12px;
+    }
+
+    .student-faqs .list .item .item-title {
+        font-size: 14px;
+    }
+
+    .student-faqs .list .item .item-description,
+    .student-faqs .list .item .item-author,
+    .student-faqs .list .item .item-last-updated {
+        font-size: 12px;
+    }
+}

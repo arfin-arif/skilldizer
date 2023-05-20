@@ -1,0 +1,79 @@
+.blog {
+    width: 95%;
+    margin: auto;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+.featured-image-container {
+    
+    width: 100%;
+    position: relative;
+    margin: 2rem 0;
+}
+
+.featured-image {
+    width: 100%;
+    border-radius: 2rem;
+    max-height: 400px;
+}
+
+.featured-image-caption {
+    position: absolute;
+    left: 1rem;
+    bottom: 1rem;
+    color: white;
+    width: 100%;
+}
+
+
+.featured-text{
+    font-size: .8rem;
+}
+.featured-heading{
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 70%;
+}
+
+.redo-icon{
+    width: 7rem;
+}
+
+.featured-excerpt{
+    font-size: .8rem;
+    width: 60%;
+}
+
+
+.blogs-row{
+    width: 97%;
+    margin: 4rem auto;
+    
+}
+
+
+.blogs-row .section-heading{
+    font-size: .8rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+    margin-left: .5rem
+}
+
+
+.subscribe-section{
+    background-color: rgb(252, 244, 240);
+    border-radius: 2rem;
+    display: flex;
+}
+
+.subscribe-section img{
+    width: 50%;
+    padding: 0 4rem;
+    padding-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .subscribe-section img {
+      display: none;
+    }
+  }
